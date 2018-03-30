@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'HWModalTransition'
-    s.version          = '1.0.0'
+    s.version          = '1.0.1'
     s.summary          = '轻松实现自定义转场'
     s.homepage         = 'https://github.com/wanghouwen/HWModalTransition'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
