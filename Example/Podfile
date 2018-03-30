@@ -7,5 +7,6 @@ target 'HWModalTransition_Example' do
     inherit! :search_paths
 
     pod 'FBSnapshotTestCase'
+    
   end
 end

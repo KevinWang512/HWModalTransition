@@ -1,0 +1,6 @@
+framework module Pods_HWModalTransition_Tests {
+  umbrella header "Pods-HWModalTransition_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

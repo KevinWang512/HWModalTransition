@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		0C1FF4BB609D004D1DC78FEB /* Pods_HWModalTransition_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D79120F1B9DA33E57220D5 /* Pods_HWModalTransition_Tests.framework */; };
 		3ABAA5BAE1992FBF21E14897 /* Pods_HWModalTransition_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AB3C3A72C0DF1A3A9794B1 /* Pods_HWModalTransition_Example.framework */; };
+		5D26F346206D28E3000137F7 /* HWRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D26F345206D28E3000137F7 /* HWRootViewController.m */; };
+		5D26F34C206D2B42000137F7 /* HWViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D26F34B206D2B42000137F7 /* HWViewController2.m */; };
+		5D26F34F206D2B4C000137F7 /* HWViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D26F34E206D2B4C000137F7 /* HWViewController3.m */; };
+		5D26F352206D2B55000137F7 /* HWViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D26F351206D2B55000137F7 /* HWViewController4.m */; };
+		5D26F358206D32C1000137F7 /* HWSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D26F357206D32C1000137F7 /* HWSideViewController.m */; };
+		5D26F364206E08E2000137F7 /* HWModalTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D26F360206E08E2000137F7 /* HWModalTransition.m */; };
+		5D26F369206E0BAB000137F7 /* HWModalTransitionNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D26F365206E0BAB000137F7 /* HWModalTransitionNavigationController.m */; };
+		5D26F36A206E0BAB000137F7 /* HWModalTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D26F366206E0BAB000137F7 /* HWModalTransitionViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* HWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* HWAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* HWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* HWViewController.m */; };
+		6003F5A7195388D20070C39A /* HWViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* HWViewController1.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,12 +45,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08375CF90AE1320ADAC2FDF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		08375CF90AE1320ADAC2FDF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1FDA79E3596C15C45899B2DC /* Pods-HWModalTransition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HWModalTransition_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HWModalTransition_Example/Pods-HWModalTransition_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2EFE18BC7100AA82B327AB05 /* HWModalTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HWModalTransition.podspec; path = ../HWModalTransition.podspec; sourceTree = "<group>"; };
+		2EFE18BC7100AA82B327AB05 /* HWModalTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HWModalTransition.podspec; path = ../HWModalTransition.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		47AB3C3A72C0DF1A3A9794B1 /* Pods_HWModalTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HWModalTransition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4920CB94E33BC7E0CF6EBBF8 /* Pods-HWModalTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HWModalTransition_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HWModalTransition_Tests/Pods-HWModalTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		54D79120F1B9DA33E57220D5 /* Pods_HWModalTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HWModalTransition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D26F344206D28E3000137F7 /* HWRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWRootViewController.h; sourceTree = "<group>"; };
+		5D26F345206D28E3000137F7 /* HWRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWRootViewController.m; sourceTree = "<group>"; };
+		5D26F34A206D2B42000137F7 /* HWViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWViewController2.h; sourceTree = "<group>"; };
+		5D26F34B206D2B42000137F7 /* HWViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWViewController2.m; sourceTree = "<group>"; };
+		5D26F34D206D2B4C000137F7 /* HWViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWViewController3.h; sourceTree = "<group>"; };
+		5D26F34E206D2B4C000137F7 /* HWViewController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWViewController3.m; sourceTree = "<group>"; };
+		5D26F350206D2B55000137F7 /* HWViewController4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWViewController4.h; sourceTree = "<group>"; };
+		5D26F351206D2B55000137F7 /* HWViewController4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWViewController4.m; sourceTree = "<group>"; };
+		5D26F356206D32C1000137F7 /* HWSideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSideViewController.h; sourceTree = "<group>"; };
+		5D26F357206D32C1000137F7 /* HWSideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSideViewController.m; sourceTree = "<group>"; };
+		5D26F35E206E08E2000137F7 /* HWModalTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HWModalTransition.h; path = ../HWModalTransition/HWModalTransition.h; sourceTree = "<group>"; };
+		5D26F360206E08E2000137F7 /* HWModalTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HWModalTransition.m; path = ../HWModalTransition/HWModalTransition.m; sourceTree = "<group>"; };
+		5D26F365206E0BAB000137F7 /* HWModalTransitionNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HWModalTransitionNavigationController.m; path = ../HWModalTransition/HWModalTransitionNavigationController.m; sourceTree = "<group>"; };
+		5D26F366206E0BAB000137F7 /* HWModalTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HWModalTransitionViewController.m; path = ../HWModalTransition/HWModalTransitionViewController.m; sourceTree = "<group>"; };
+		5D26F367206E0BAB000137F7 /* HWModalTransitionNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HWModalTransitionNavigationController.h; path = ../HWModalTransition/HWModalTransitionNavigationController.h; sourceTree = "<group>"; };
+		5D26F368206E0BAB000137F7 /* HWModalTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HWModalTransitionViewController.h; path = ../HWModalTransition/HWModalTransitionViewController.h; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HWModalTransition_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWModalTransition_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,8 +77,8 @@
 		6003F59B195388D20070C39A /* HWModalTransition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HWModalTransition-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* HWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* HWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* HWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* HWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWViewController.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* HWViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWViewController1.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* HWViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWViewController1.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* HWModalTransition_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWModalTransition_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -62,7 +86,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		684B0B27E45948C139DA1EF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		684B0B27E45948C139DA1EF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BD8DE0D3683473262FAE790 /* Pods-HWModalTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HWModalTransition_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HWModalTransition_Tests/Pods-HWModalTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -135,8 +159,18 @@
 				6003F59C195388D20070C39A /* HWAppDelegate.h */,
 				6003F59D195388D20070C39A /* HWAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* HWViewController.h */,
-				6003F5A6195388D20070C39A /* HWViewController.m */,
+				6003F5A5195388D20070C39A /* HWViewController1.h */,
+				6003F5A6195388D20070C39A /* HWViewController1.m */,
+				5D26F34A206D2B42000137F7 /* HWViewController2.h */,
+				5D26F34B206D2B42000137F7 /* HWViewController2.m */,
+				5D26F34D206D2B4C000137F7 /* HWViewController3.h */,
+				5D26F34E206D2B4C000137F7 /* HWViewController3.m */,
+				5D26F350206D2B55000137F7 /* HWViewController4.h */,
+				5D26F351206D2B55000137F7 /* HWViewController4.m */,
+				5D26F344206D28E3000137F7 /* HWRootViewController.h */,
+				5D26F345206D28E3000137F7 /* HWRootViewController.m */,
+				5D26F356206D32C1000137F7 /* HWSideViewController.h */,
+				5D26F357206D32C1000137F7 /* HWSideViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -178,6 +212,12 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				5D26F35E206E08E2000137F7 /* HWModalTransition.h */,
+				5D26F360206E08E2000137F7 /* HWModalTransition.m */,
+				5D26F368206E0BAB000137F7 /* HWModalTransitionViewController.h */,
+				5D26F366206E0BAB000137F7 /* HWModalTransitionViewController.m */,
+				5D26F367206E0BAB000137F7 /* HWModalTransitionNavigationController.h */,
+				5D26F365206E0BAB000137F7 /* HWModalTransitionNavigationController.m */,
 				2EFE18BC7100AA82B327AB05 /* HWModalTransition.podspec */,
 				08375CF90AE1320ADAC2FDF5 /* README.md */,
 				684B0B27E45948C139DA1EF1 /* LICENSE */,
@@ -247,7 +287,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = HW;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = wanghouwen;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -388,10 +428,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HWModalTransition_Example/Pods-HWModalTransition_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HWExtension/HWExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/HWModalTransition/HWModalTransition.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HWExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HWModalTransition.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,9 +448,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D26F346206D28E3000137F7 /* HWRootViewController.m in Sources */,
+				5D26F352206D2B55000137F7 /* HWViewController4.m in Sources */,
+				5D26F36A206E0BAB000137F7 /* HWModalTransitionViewController.m in Sources */,
 				6003F59E195388D20070C39A /* HWAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* HWViewController.m in Sources */,
+				6003F5A7195388D20070C39A /* HWViewController1.m in Sources */,
+				5D26F358206D32C1000137F7 /* HWSideViewController.m in Sources */,
+				5D26F369206E0BAB000137F7 /* HWModalTransitionNavigationController.m in Sources */,
+				5D26F364206E08E2000137F7 /* HWModalTransition.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				5D26F34C206D2B42000137F7 /* HWViewController2.m in Sources */,
+				5D26F34F206D2B4C000137F7 /* HWViewController3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,19 +516,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -491,7 +552,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -506,25 +567,36 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -565,6 +637,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4920CB94E33BC7E0CF6EBBF8 /* Pods-HWModalTransition_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -589,6 +662,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7BD8DE0D3683473262FAE790 /* Pods-HWModalTransition_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

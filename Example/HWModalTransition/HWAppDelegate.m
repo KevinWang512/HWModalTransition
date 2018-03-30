@@ -7,12 +7,19 @@
 //
 
 #import "HWAppDelegate.h"
+#import "HWRootViewController.h"
 
 @implementation HWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    HWRootViewController *roorVC = [[HWRootViewController alloc] init];
+    self.window.rootViewController = roorVC;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

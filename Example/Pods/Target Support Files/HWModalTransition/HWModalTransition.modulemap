@@ -1,0 +1,6 @@
+framework module HWModalTransition {
+  umbrella header "HWModalTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}

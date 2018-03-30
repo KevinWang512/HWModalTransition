@@ -1,0 +1,26 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HWExtension/Category (1.0.5)
+  - HWModalTransition (1.0.0):
+    - HWExtension/Category
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HWModalTransition (from `../`)
+
+EXTERNAL SOURCES:
+  HWModalTransition:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HWExtension: a5b9ac7b98ee1467b3214ae0e9c2e98958c1d60e
+  HWModalTransition: b2b269b2203e631b5a5d6a4afd38293441bacb62
+
+PODFILE CHECKSUM: b5e1f10981324f68d8de35394970b093dc83bcf2
+
+COCOAPODS: 1.4.0.rc.1
